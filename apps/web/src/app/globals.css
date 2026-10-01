@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media print {
+  .no-print { display: none !important; }
+  .print-page {
+    width: 210mm;
+    min-height: 297mm;
+    margin: 0;
+    padding: 16mm;
+    box-shadow: none;
+    border: none;
+  }
+}
